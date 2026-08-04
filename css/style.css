@@ -279,8 +279,8 @@
   .tier-name{ font-size:13px; letter-spacing:0.14em; text-transform:uppercase; color:var(--burgundy); margin-bottom:14px; }
   .tier-card.featured .tier-name{ color:var(--gold-bright); }
   .tier-price{ font-family:'Noto Serif KR',serif; font-size:34px; font-weight:600; margin:0 0 4px; }
-  .tier-price span{ font-size:14px; font-weight:400; color:var(--ink-soft); }
-  .tier-card.featured .tier-price span{ color:rgba(246,242,233,0.6); }
+  .tier-note{ font-size:14px; font-weight:400; color:var(--ink-soft); margin:0 0 14px; }
+  .tier-card.featured .tier-note{ color:rgba(246,242,233,0.6); }
   .tier-list{ list-style:none; padding:0; margin:26px 0 32px; flex:1; }
   .tier-list li{ padding:9px 0; border-top:1px solid var(--line); font-size:14.5px; }
   .tier-card.featured .tier-list li{ border-top:1px solid var(--line-on-dark); }
