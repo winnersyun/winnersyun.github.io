@@ -233,6 +233,8 @@
   .gap-row.a .bar-fill{ background:linear-gradient(90deg, var(--gold), var(--gold-bright)); width:88%; }
   .gap-row.b .bar-fill{ background:linear-gradient(90deg, var(--burgundy), var(--burgundy-soft)); width:39%; }
   .gap-row.c .bar-fill{ background:linear-gradient(90deg, var(--pine), var(--pine-soft)); width:24%; }
+  .gap-row.d .bar-fill{ background:linear-gradient(90deg, var(--gold-bright), var(--pine-soft)); width:20%; }
+  .stat-source{ margin-top:14px; font-size:12.5px; color:var(--ink-soft); text-align:right; }
   .gap-row .num{ font-family:'Noto Serif KR',serif; font-size:22px; text-align:right; font-weight:600; }
   .insight-note{
     margin-top:36px; padding:26px 28px; background:var(--ivory-deep); border-left:3px solid var(--burgundy);
@@ -240,8 +242,13 @@
   }
 
   /* --- 비교 테이블 --- */
+  .brand-philosophy{
+    margin:0 0 40px; padding:30px 40px; text-align:center; max-width:700px; margin-left:auto; margin-right:auto;
+    font-family:'Noto Serif KR',serif; font-size:19px; line-height:1.7; color:var(--pine);
+    border-top:1px solid var(--gold-bright); border-bottom:1px solid var(--gold-bright);
+  }
   .compare-grid{ display:grid; grid-template-columns:1fr 1fr; gap:0; border:1px solid var(--line); border-radius:4px; overflow:hidden; }
-  @media (max-width:720px){ .compare-grid{ grid-template-columns:1fr; } }
+  @media (max-width:720px){ .compare-grid{ grid-template-columns:1fr; } .brand-philosophy{ padding:24px 20px; font-size:17px; } }
   .compare-col{ padding:36px 32px; }
   .compare-col.old{ background:var(--ivory-deep); }
   .compare-col.new{ background:var(--pine); color:var(--ivory); }
@@ -397,6 +404,10 @@
   .contact-side p{ color:var(--ink-soft); font-size:15px; }
   .channel-list{ margin-top:24px; }
   .channel-list li{ font-size:14px; color:var(--ink-soft); padding:6px 0; }
+  .privacy-note{
+    margin-top:20px; padding:14px 16px; background:var(--ivory-deep); border-left:2px solid var(--gold-bright);
+    font-size:13px; color:var(--ink-soft); line-height:1.6; border-radius:2px;
+  }
 
   /* --- 카카오톡 상담 --- */
   .kakao-btn{
