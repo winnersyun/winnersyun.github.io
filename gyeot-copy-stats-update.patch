@@ -1,0 +1,59 @@
+diff --git a/css/style.css b/css/style.css
+index 449fb27..735e87b 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -232,6 +232,7 @@
+   .gap-row .bar-fill{ height:100%; border-radius:6px; }
+   .gap-row.a .bar-fill{ background:linear-gradient(90deg, var(--gold), var(--gold-bright)); width:88%; }
+   .gap-row.b .bar-fill{ background:linear-gradient(90deg, var(--burgundy), var(--burgundy-soft)); width:39%; }
++  .gap-row.c .bar-fill{ background:linear-gradient(90deg, var(--pine), var(--pine-soft)); width:24%; }
+   .gap-row .num{ font-family:'Noto Serif KR',serif; font-size:22px; text-align:right; font-weight:600; }
+   .insight-note{
+     margin-top:36px; padding:26px 28px; background:var(--ivory-deep); border-left:3px solid var(--burgundy);
+diff --git a/index.html b/index.html
+index e980969..665af89 100644
+--- a/index.html
++++ b/index.html
+@@ -32,7 +32,7 @@
+   "@type": "Service",
+   "serviceType": "시니어 라이프 파트너 동행 서비스",
+   "name": "곁 GYEOT",
+-  "description": "품격있는 자산가 시니어를 위한 프리미엄 라이프 파트너 멤버십. 부모님 동행 서비스, 식사 동행, 문화·운동 동행, 여행 동행 등 세대 파트너십 서비스를 제공합니다.",
++  "description": "품격있는 자산가 시니어를 위한 프리미엄 라이프 파트너 멤버십. 부모님 동행 서비스, 식사 동행, 문화·운동 동행, 여행 동행 등 세대 파트너쉽 서비스를 제공합니다.",
+   "provider": {
+     "@type": "Organization",
+     "name": "곁 GYEOT",
+@@ -177,9 +177,14 @@
+         <div class="bar-track"><div class="bar-fill"></div></div>
+         <div class="num">39.4%</div>
+       </div>
++      <div class="gap-row c">
++        <div class="label">독거노인 비율 (2000년 16.2% → 지속 증가)</div>
++        <div class="bar-track"><div class="bar-fill"></div></div>
++        <div class="num">23.7%</div>
++      </div>
+     </div>
+     <div class="insight-note reveal">
+-      일본은 이미 2020년부터 '손주 세대 짝꿍' 모델로 이 문제에 답해왔습니다. 저희는 그 5년의 검증된 철학 위에, 대한민국 상위 시니어의 눈높이에 맞춘 파트너십을 설계했습니다.
++      일본은 이미 2020년부터 '손주 세대 짝꿍' 모델로 이 문제에 답해왔습니다. 저희는 그 5년의 검증된 철학 위에, 대한민국 상위 시니어의 눈높이에 맞춘 파트너쉽을 설계했습니다.
+     </div>
+   </div>
+ </section>
+@@ -201,7 +206,7 @@
+       </div>
+       <div class="compare-col new">
+         <h3>곁 라이프 파트너</h3>
+-        <div class="compare-item"><span class="k">핵심 자원</span><span>2030 파트너 (품성·공감력 기반)</span></div>
++        <div class="compare-item"><span class="k">핵심 자원</span><span>2030 파트너 (생동감·디지털 친화력 기반)</span></div>
+         <div class="compare-item"><span class="k">서비스 논리</span><span>삶의 확장</span></div>
+         <div class="compare-item"><span class="k">고객 심리</span><span>함께할 사람이 필요하다</span></div>
+         <div class="compare-item"><span class="k">지불 트리거</span><span>자발적인 라이프스타일 투자</span></div>
+@@ -321,7 +326,7 @@
+     <div class="steps reveal">
+       <div class="step">
+         <div class="step-num">01</div>
+-        <div><h4>크레도 연수</h4><p>"케어가 아닌 파트너십" 철학을 내재화하고, 비밀유지 원칙을 학습합니다.</p></div>
++        <div><h4>크레도 연수</h4><p>"케어가 아닌 파트너쉽" 철학을 내재화하고, 비밀유지 원칙을 학습합니다.</p></div>
+       </div>
+       <div class="step">
+         <div class="step-num">02</div>

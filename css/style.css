@@ -232,6 +232,7 @@
   .gap-row .bar-fill{ height:100%; border-radius:6px; }
   .gap-row.a .bar-fill{ background:linear-gradient(90deg, var(--gold), var(--gold-bright)); width:88%; }
   .gap-row.b .bar-fill{ background:linear-gradient(90deg, var(--burgundy), var(--burgundy-soft)); width:39%; }
+  .gap-row.c .bar-fill{ background:linear-gradient(90deg, var(--pine), var(--pine-soft)); width:24%; }
   .gap-row .num{ font-family:'Noto Serif KR',serif; font-size:22px; text-align:right; font-weight:600; }
   .insight-note{
     margin-top:36px; padding:26px 28px; background:var(--ivory-deep); border-left:3px solid var(--burgundy);
